@@ -1,0 +1,36 @@
+.Search {
+  &.Navbar {
+    background-color: #eee;
+    padding: 1em;
+    margin: 0 auto 5em;
+    box-shadow: 0 0 13px 0px #0005;
+    position: sticky;
+    max-width: 50em;
+    z-index: 1;
+    top: 0;
+
+    .Search__Logo {
+      max-width: 6em;
+      margin: 0;
+    }
+
+    .Search__Input {
+      max-width: none;
+    }
+  }
+  
+  &__Input {
+    border-radius: 5em !important;
+    margin: auto;
+    max-width: 40em;
+  }
+  
+  &__Greeting {
+    font-size: 2em;
+  }
+  
+  .Search__Logo {
+    margin: 5em auto;
+    max-width: 30em;
+  }
+}

@@ -1,0 +1,9 @@
+.Sprites {
+  &__Color {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    display: inline-block;
+    filter: brightness(0.8);
+  }
+}

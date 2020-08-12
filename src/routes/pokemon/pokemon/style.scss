@@ -1,0 +1,9 @@
+.Pokemon {
+  &__Section {
+    text-transform: capitalize;
+
+    &>p {
+      color: #68aed0;
+    }
+  }
+}
