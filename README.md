@@ -86,7 +86,8 @@ Above URL is determined by `species` field in 3a resopnse.
 #### Navigation to Pokemon evolution type
 https://pokeapi.co/docs/v2#evolution-section
 
-The URL is determined by `evolution_chain` field in `3b` response for per evolution species.
+The URL is determined by `evolution_chain` field in 3b response for per evolution species.
+It happends when a chain link is clicked in Evolutions section
 
 ## 4. Future Considerations
 
